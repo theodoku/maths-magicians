@@ -76,7 +76,7 @@ Git should be installed on your local machine to clone it using HTTP or SSH. Oth
 
 You can clone this project by using the command below
 
-Command : git clone git@github.com:SabiMantock/math-magicians.git
+Command : git clone https://github.com/theodoku/maths-magicians.git
 
 ### Run project <a name="run-tests"></a>
 
