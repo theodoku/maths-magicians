@@ -7,6 +7,7 @@ import {
   NUM_4,
 } from '../utilities/consts';
 import Button from '../button/Button';
+import './Calculator.css';
 
 export default class Calculator extends Component {
   constructor(props) {
