@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import Calculator from './components/Calculator';
+import Quotes from './components/Quotes';
 
 export default class App extends Component {
   constructor(props) {
@@ -11,6 +12,7 @@ export default class App extends Component {
     return (
       <div>
         <Calculator />
+        <Quotes />
       </div>
     );
   }
