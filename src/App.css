@@ -11,10 +11,11 @@ h1 {
   font-size: 2rem;
   color: red;
   margin: 2rem 0;
+  padding: 1rem;
 }
 
-.home p {
-  padding-bottom: 2rem;
+ p {
+  padding: 1rem;
 }
 
 .quotes {
