@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Balsamiq Sans', cursive, sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2rem;
+  color: red;
+  margin: 2rem 0;
+}
+
+.home p {
+  padding-bottom: 2rem;
+}
+
+.quotes {
+  margin-top: 2rem;
+}
+
+.quote {
+  font-size: 1rem;
+  padding: 1rem 0.5rem;
+}
+
+.author {
+  font-style: italic;
+  font-weight: 600;
+  color: red;
+  font-family: sans-serif;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+  .header {
+    padding: 0.5rem;
+    display: block;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .nav {
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .nav li {
+    padding: 0.5rem;
+    border: none;
+  }
+
+  .links {
+    font-size: 1.1rem;
+  }
+
+  .cal-container {
+    width: 90%;
+    margin: 50px auto;
+  }
+
+  .cal-result {
+    justify-content: center;
+    padding: 5px 0;
+  }
+
+  button {
+    width: 25%;
+  }
+
+  .btn-17 {
+    width: 50%;
+  }
+}

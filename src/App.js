@@ -1,19 +1,20 @@
-import { Component } from 'react';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Calculator from './components/Calculator';
-import Quotes from './components/Quotes';
+import Quotes from './Pages/Quotes';
+import Navigation from './components/Navigation';
+import Home from './Pages/Home';
+import './App.css';
 
-export default class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+const App = () => (
+  <>
+    <Navigation />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/calculator" element={<Calculator />} />
+      <Route path="/quotes" element={<Quotes />} />
+    </Routes>
+  </>
+);
 
-  render() {
-    return (
-      <div>
-        <Calculator />
-        <Quotes />
-      </div>
-    );
-  }
-}
+export default App;
