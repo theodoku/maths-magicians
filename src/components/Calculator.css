@@ -1,7 +1,7 @@
 .cal-container {
-  width: 300px;
+  width: 500px;
   height: auto;
-  margin: 150px auto;
+  margin: 100px auto;
   border: 1px solid #ddd;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .btn-17 {
-  width: 150px;
+  width: 250px;
 }
 
 .btn-4,
