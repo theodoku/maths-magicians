@@ -53,6 +53,8 @@ In this project, I am using React to create a calculator app.
 
 <!-- LIVE DEMO -->
 
+- Live Demo link (https://theodoku-maths-magicians.onrender.com)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
